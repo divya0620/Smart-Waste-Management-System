@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Smart Waste Management System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>♻ Smart Waste Management System</h1>
+
+<div class="container">
+
+<div class="card">
+<h2>Add Waste</h2>
+<input type="text" id="item" placeholder="Enter waste item">
+<button onclick="addWaste()">Add Waste</button>
+</div>
+
+<div class="card">
+<h2>Waste Classification </h2>
+<div id="bins"></div>
+</div>
+
+<div class="card">
+<h2>Recycling Tracker </h2>
+<div id="recycling"></div>
+</div>
+
+<div class="card">
+<h2>Smart Bin Sensors </h2>
+<button onclick="updateSensors()">Check Bin Status</button>
+<div id="iot"></div>
+</div>
+
+<div class="card">
+<h2>Bin Priority </h2>
+<button onclick="showPriority()">Check Priority</button>
+<div id="priority"></div>
+</div>
+
+<div class="card">
+<h2>Collection Routes</h2>
+<button onclick="showRoutes()">Optimize Routes</button>
+<div id="routes"></div>
+</div>
+
+
+
+
+
+
+<div class="card">
+<h2>Waste Data Analytics</h2>
+<button onclick="showAnalytics()">Show Analytics</button>
+<div id="analytics"></div>
+</div>
+
+<div class="card">
+<h2>Circular Economy Processing</h2>
+<button onclick="circularEconomy()">Process Waste</button>
+<div id="circular"></div>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
